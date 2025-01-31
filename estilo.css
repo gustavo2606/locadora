@@ -58,10 +58,8 @@ body{/*seletor de tag*/
     background-color: white;/*muda a cor da tabela*/
     width: 400px; /*tamanho da tabela */
     text-align: center;/*centraliza o texto*/
-    padding-top: 10px;/*espacamento superior */
-    padding-top: 38px;/* espacamento para esquerda */
-    padding-top: 38px;/*espacamento para direita */
-    padding-top: 38px;/*espacamento inferior */
+    padding: 10px 38px 38px 38px;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0.5 );
 }
 
 .titulo{/*seletor de clase */
@@ -79,4 +77,64 @@ body{/*seletor de tag*/
 .pedido{
     margin-top: 32px;
     text-align: left;
+}
+
+.rotulo{
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.campo-texto{
+    width: 100%;
+    font-size: 16px;
+    color: black;
+    padding: 7px 13px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+}
+
+.botao-reserva{
+    width: 100%;
+    background-color: darkorange;
+    color: white;
+    line-height: 150%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;/*se voce vai querer texto maiusculo ou minusculo*/
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+#col2{
+    width: 700px;
+    margin-left: 39px;
+}
+
+.oferta{
+    font-size: 36px;
+    font-weight: bold;
+    color:white
+}
+
+.destaque{
+    color: blue;
+}
+
+.texto-oferta{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.tudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
 }
